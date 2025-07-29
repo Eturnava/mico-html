@@ -22,11 +22,20 @@ $usefulLinks = [
 ];
 
 $latestPosts = [
-  ['img' => 'images/post1.jpg', 'text' => 'New Research on Cardiology'],
-  ['img' => 'images/post2.jpg', 'text' => 'How to Stay Healthy in Winter'],
+  ['img' => 'images/post1.jpg', 
+  'text' => 'New Research on Cardiology'
+  ],
+  ['img' => 'images/post2.jpg', 
+  'text' => 'How to Stay Healthy in Winter'
+  ],
 ];
 
 $newsPosts = [
-  ['img' => 'images/post3.jpg', 'text' => 'Emergency Department Upgrades'],
-  ['img' => 'images/post4.png', 'text' => 'New Pediatric Ward Opened'],
+  ['img' => 'images/post3.jpg', 
+  'text' => 'Emergency Department Upgrades'
+  ],
+
+  ['img' => 'images/post4.png', 
+  'text' => 'New Pediatric Ward Opened'
+  ],
 ];

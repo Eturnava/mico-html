@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $username = trim($_POST['username'] ?? '');
   $password = trim($_POST['password'] ?? '');
 
-  $users = file('users.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+  $users = file('users/users.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
   $found = false;
 
   foreach ($users as $user) {

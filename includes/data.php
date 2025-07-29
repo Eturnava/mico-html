@@ -40,15 +40,34 @@ $hospitalTreatments = [
 
 ];
 $ourDoctors = [
-  ['name' => 'Dr.Hennry', 'specialty' => 'General Physician', 'img' => 'images/team1.jpg'],
-  ['name' => 'Dr.Jenni', 'specialty' => 'Gynecologist', 'img' => 'images/team2.jpg'],
-  ['name' => 'Dr.Morco', 'specialty' => 'ENT Specialist', 'img' => 'images/team3.jpg'],
+  ['name' => 'Dr.Hennry', 
+  'specialty' => 'General Physician', 
+  'img' => 'images/team1.jpg'
+  ],
+
+  ['name' => 'Dr.Jenni', 
+  'specialty' => 'Gynecologist', 
+  'img' => 'images/team2.jpg'
+  ],
+
+  ['name' => 'Dr.Morco', 
+  'specialty' => 'ENT Specialist', 
+  'img' => 'images/team3.jpg'
+  ],
 ];
 
 $testimonials = [
-  ['name' => 'Morijorch', 'text' => "The staff was incredibly kind and professional. Dr. Lawson made me feel safe during the entire process."],
-  ['name' => 'Rochak', 'text' => "Booking my appointment online was quick and easy. I barely waited and got great care!"],
-  ['name' => 'Brad Johns', 'text' => "I was nervous about my first visit, but everything—from reception to treatment—was smooth and comforting."],
+  ['name' => 'Morijorch', 
+  'text' => "The staff was incredibly kind and professional. Dr. Lawson made me feel safe during the entire process."
+  ],
+  
+  ['name' => 'Rochak', 
+  'text' => "Booking my appointment online was quick and easy. I barely waited and got great care!"
+  ],
+
+  ['name' => 'Brad Johns', 
+  'text' => "I was nervous about my first visit, but everything—from reception to treatment—was smooth and comforting."
+  ],
 ];
 
 $aboutHospital = [
