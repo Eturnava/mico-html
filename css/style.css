@@ -154,6 +154,29 @@ a:focus {
   color: #252525;
 }
 
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.search-container.active .search-input {
+  width: 150px;
+  opacity: 1;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+
+
 .custom_nav-container .navbar-toggler {
   outline: none;
 }

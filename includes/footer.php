@@ -23,9 +23,20 @@
         <div class="col-md-6 col-lg-3">
           <h5>Address</h5>
           <div class="info_contact">
-            <a href="#"><i class="fa fa-map-marker"></i><span><?= $contactInfo['location'] ?></span></a>
-            <a href="#"><i class="fa fa-phone"></i><span>Call <?= $contactInfo['phone'] ?></span></a>
-            <a href="#"><i class="fa fa-envelope"></i><span><?= $contactInfo['email'] ?></span></a>
+            <a href="tel:+01123455678990">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>Call : +01 123455678990</span>
+          </a>
+
+          <a href="https://mail.google.com/mail/?view=cm&to=demo@gmail.com" target="_blank">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span>Email : demo@gmail.com</span>
+          </a>
+
+          <a href="https://www.google.com/maps/search/?api=1&query=mico+hospital" target="_blank">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>Location</span>
+          </a>
           </div>
           <div class="social_box">
             <a href="<?= $socialLinks['facebook'] ?>" target="_blank"><i class="fa fa-facebook"></i></a>

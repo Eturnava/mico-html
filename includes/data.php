@@ -60,7 +60,7 @@ $testimonials = [
   ['name' => 'Morijorch', 
   'text' => "The staff was incredibly kind and professional. Dr. Lawson made me feel safe during the entire process."
   ],
-  
+
   ['name' => 'Rochak', 
   'text' => "Booking my appointment online was quick and easy. I barely waited and got great care!"
   ],
@@ -76,6 +76,18 @@ $aboutHospital = [
   'description' => "Our hospital has a long-standing reputation for excellence in patient care. We blend advanced technology with compassionate treatment. From general medicine to specialized care, our team is dedicated to improving your health with personalized attention and modern solutions.",
   'link' => 'about.php',
   'link_text' => 'Read More'
+];
+
+$contactForm = [
+  'heading' => 'Get In Touch',
+  'fields' => [
+    'name' => 'Full Name',
+    'email' => 'Email',
+    'phone' => 'Phone Number',
+    'message' => 'Message'
+     ],
+  'button_text' => 'SEND',
+  'image' => 'images/contact-img.jpg'
 ];
 
 ?>
